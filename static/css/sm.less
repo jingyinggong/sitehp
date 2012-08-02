@@ -5,7 +5,6 @@
 @dark: #333;
 body {
     background-color: @greybg;
-    font-size: 14px;
 }
 .ihide {
     white-space: nowrap;
@@ -15,15 +14,13 @@ body {
 .container {
     width: 1004px;
 }
-#headerNav {
-    margin-bottom: 15px;
-    .navbar-inner { border-radius: 0; }
+.wrapHeader {
     .container {
         width: 1004px;
     }
 }
 #header {
-    margin-top: 15px;
+    margin-top: 55px;
     margin-bottom: 15px;
     h1 { float: left; }
     .nav {
@@ -158,5 +155,8 @@ body {
         }
         a { color: @dark; }
     }
+}
+.wrapFooter {
+    margin-top: 20px;
 }
 

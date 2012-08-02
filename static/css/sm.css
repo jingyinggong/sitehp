@@ -1,6 +1,5 @@
 body {
   background-color: #e5e8ea;
-  font-size: 14px;
 }
 .ihide {
   white-space: nowrap;
@@ -10,17 +9,11 @@ body {
 .container {
   width: 1004px;
 }
-#headerNav {
-  margin-bottom: 15px;
-}
-#headerNav .navbar-inner {
-  border-radius: 0;
-}
-#headerNav .container {
+.wrapHeader .container {
   width: 1004px;
 }
 #header {
-  margin-top: 15px;
+  margin-top: 55px;
   margin-bottom: 15px;
 }
 #header h1 {
@@ -203,4 +196,7 @@ body {
 }
 #footer nav a {
   color: #333333;
+}
+.wrapFooter {
+  margin-top: 20px;
 }
