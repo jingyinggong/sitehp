@@ -6,14 +6,8 @@ body {
   overflow: hidden;
   text-indent: -9999em;
 }
-.container {
-  width: 1004px;
-}
-.wrapHeader .container {
-  width: 1004px;
-}
 #header {
-  margin-top: 55px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 #header h1 {
@@ -176,26 +170,6 @@ body {
 }
 #container .prdContent .prdT4 {
   background-position: 0 -90px;
-}
-#footer {
-  height: 115px;
-  text-align: center;
-}
-#footer nav {
-  font-size: 12px;
-  padding: 20px 0 10px;
-}
-#footer nav span {
-  padding: 0 10px;
-  height: 12px;
-  line-height: 12px;
-}
-#footer nav .seperator {
-  border-left: 1px solid #333333;
-  border-right: 1px solid #333333;
-}
-#footer nav a {
-  color: #333333;
 }
 .wrapFooter {
   margin-top: 20px;
