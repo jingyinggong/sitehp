@@ -12,6 +12,20 @@
     <script type="text/javascript" src="static/js/sm.js" ></script>
 </head>
 <body>
+    <script type="text/javascript">
+        var trackMasterList = trackMasterList || [];
+        trackMasterList.push({a: 10784, b: 200057474, c: 2010, i: 0, m: 101, h: ""});
+        (function(){
+            var id = 'trackMasterExposure', trackMasterJs = document.getElementById(id);
+            trackMasterJs ? function(){
+                return false;
+            }() : function() {
+                var tm = document.createElement('script'); tm.type = 'text/javascript';
+                tm.src = 'http://cdnmaster.com/trackmaster/imp.js'; tm.id = id;
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tm, s);
+            }();
+        })();
+    </script>
     <header id="header">
         <div class="container">
             <h1>
