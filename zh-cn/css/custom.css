@@ -1,0 +1,16 @@
+.navbar-inner, #copywrite, #headline {
+    background-color: #333333;
+}
+
+#header h1{
+    color: rgb(0,136,204);
+}
+
+h2, h3, h4, body, p, address{
+    font-family:黑体;
+}
+	
+
+.collapse {
+    margin-top: 10px;
+}
